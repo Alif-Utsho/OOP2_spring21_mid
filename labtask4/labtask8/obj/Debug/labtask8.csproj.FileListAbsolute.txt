@@ -1,0 +1,6 @@
+C:\Users\Shahorir Alif Utsho\source\repos\labtask4\labtask8\bin\Debug\labtask8.exe.config
+C:\Users\Shahorir Alif Utsho\source\repos\labtask4\labtask8\bin\Debug\labtask8.exe
+C:\Users\Shahorir Alif Utsho\source\repos\labtask4\labtask8\bin\Debug\labtask8.pdb
+C:\Users\Shahorir Alif Utsho\source\repos\labtask4\labtask8\obj\Debug\labtask8.csproj.CoreCompileInputs.cache
+C:\Users\Shahorir Alif Utsho\source\repos\labtask4\labtask8\obj\Debug\labtask8.exe
+C:\Users\Shahorir Alif Utsho\source\repos\labtask4\labtask8\obj\Debug\labtask8.pdb
