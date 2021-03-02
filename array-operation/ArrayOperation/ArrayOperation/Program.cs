@@ -27,10 +27,9 @@ namespace ArrayOperation
             Console.WriteLine();
 
 
-            //Task 2 & 3
-            int[] arr2 = new int[] { 1, 6, 4, 11, 4, 6, 8, 4, 6, 10 };
+            //Task 2
+            int[] arr2 = new int[] { 1, 2, 3, 2, 1, 5, 3 };
             int duplicate = 0;
-            int single = 0;
 
             for (int i = 0; i < arr2.Length; i++)
             {
@@ -39,16 +38,26 @@ namespace ArrayOperation
                     if (arr2[i] == arr2[j])
                     {
                         duplicate++;
-                        break;
-                    }
-                    else
-                    {
-                        single++;
-                        break;
                     }
                 }
             }
             Console.WriteLine("Duplicate element {0}", duplicate);
+            Console.WriteLine();
+
+            //Task 3
+            int[] arr3 = new int[] { 1, 2, 3, 2, 1, 5, 3 };
+            int single = 0;
+
+            for (int i = 0; i < arr3.Length; i++)
+            {
+                for (int j = i + 1; j < arr3.Length; j++)
+                {
+                    if (arr3[i] != arr3[j])
+                    {
+                        single++;
+                    }
+                }
+            }
             Console.WriteLine("Single element {0}", single);
 
             Console.ReadKey();
